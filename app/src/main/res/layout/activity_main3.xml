@@ -7,6 +7,20 @@
     tools:context=".Main3Activity">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="680dp"
+        android:text="Product Info"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
         android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +29,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textSize="22dp"
+        android:fontFamily="sans-serif"
         app:layout_constraintVertical_bias="0.203" />
+
     <TextView
         android:id="@+id/textview3"
         android:layout_width="wrap_content"
@@ -25,19 +42,23 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textSize="22dp"
+        android:fontFamily="sans-serif"
         app:layout_constraintVertical_bias="0.352" />
+
 
     <TextView
         android:id="@+id/textview4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:fontFamily="sans-serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
-
+        app:layout_constraintVertical_bias="0.522" />
 
     <TextView
         android:id="@+id/textview2"
@@ -50,14 +71,15 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="italic"
         app:layout_constraintVertical_bias="0.349" />
 
     <TextView
         android:id="@+id/textview5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Promo Code:
-"
+        android:text="Promo Code:"
+        android:textStyle="italic"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.198"
@@ -70,8 +92,8 @@
         android:id="@+id/textview6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Product Name:
-"
+        android:text="Product Name:"
+        android:textStyle="italic"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.198"
@@ -79,7 +101,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.522" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
